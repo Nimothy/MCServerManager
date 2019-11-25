@@ -5,8 +5,9 @@
 > A super simple windows app that minimises to the task bar to allow for easy MC server hosting on Windows
 
 ## Screenshots
-![Launcher screenshot](/screenshot/Launcher.png?raw=true "Launcher")
-![Manager screenshot](/screenshot/Manager.png?raw=true "Manager")
+![Alt text](screenshot/launcher.jpg "Launcher")
+
+![Alt text](/screenshot/manager.jpg "Manager")
 
 ## Installation
 
@@ -15,3 +16,8 @@
 3. Fire up the program and click start.
 
 Please Not that the ONLY way to exit the program is to right click the icon in the task bar and click exit. Clicking 'X' in the UI purely minimises to the task bar. 
+
+## Acknowledgements
+[MedallionShell](https://github.com/madelson/MedallionShell)
+
+[Material Design In XAML Toolkit](https://github.com/MaterialDesignInXAML/MaterialDesignInXamlToolkit)
