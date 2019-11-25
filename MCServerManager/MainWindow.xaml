@@ -1,0 +1,27 @@
+﻿<Window x:Class="MCServerManager.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MCServerManager"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal" 
+        TextOptions.TextRenderingMode="Auto"        
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}"
+        Title="Minecraft Server Manager" Height="400" Width="650">
+    <Grid>
+        <materialDesign:Card Padding="32" Margin="16">
+            <TextBlock Style="{DynamicResource MaterialDesignTitleTextBlock}" HorizontalAlignment="Center" VerticalAlignment="Center"><Run Text="Minecraft Server Manager"/></TextBlock>
+        </materialDesign:Card>
+        <Button Name="BtnStart" Content="Start" HorizontalAlignment="Left" Margin="16,128,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Button Name="BtnStop" Content="Stop" Margin="0,128,16,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="73" Click="BtnStop_Click"/>
+        <ScrollViewer Margin="16,175,16,10">
+            <TextBlock Name="LogBox" Style="{DynamicResource MaterialDesignTextBlock}" Text="" TextWrapping="Wrap" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Auto" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        </ScrollViewer>
+    </Grid>
+</Window>
