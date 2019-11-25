@@ -5,9 +5,9 @@
 > A super simple windows app that minimises to the task bar to allow for easy MC server hosting on Windows
 
 ## Screenshots
-![Alt text](screenshot/launcher.jpg "Launcher")
+![Alt text](screenshots/launcher.jpg "Launcher")
 
-![Alt text](/screenshot/manager.jpg "Manager")
+![Alt text](/screenshots/manager.jpg "Manager")
 
 ## Installation
 
